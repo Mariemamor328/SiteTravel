@@ -1,0 +1,80 @@
+body {
+    background-color: #eaf2fc;
+    font-family: 'Arial', sans-serif;
+    margin-top: 90px;
+  
+  }
+
+
+.profil-page {
+  background-color: #ffffff;
+  color:  #3498db;
+  font-family: Arial, sans-serif;
+
+}
+
+.welcome-section {
+  text-align: center;
+padding: 20px;
+  padding: 50px;
+  background-color:  #3498db;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.welcome-section h1 {
+  font-size: 2.5em;
+}
+
+.welcome-section p {
+  font-size: 1.2em;
+}
+
+.profile-info-section{
+  padding: 30px;
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 1px solid #3498db;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info-section h2 {
+  color:  #3498db;
+  font-size: 1.5em;
+}
+
+.profile-info-section p {
+  font-size: 1em;
+  color: #333;
+}
+
+
+.action-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+.action-section p {
+  color:  #3498db;
+  text-decoration: none;
+}
+
+.btn-edit {
+  background-color: #0d6efd;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.mt-4{
+display: flex;
+flex-direction: column;
+  gap: 20px;
+}
+.action-section  :hover {
+cursor: pointer;
+} 
+

@@ -1,0 +1,330 @@
+
+  
+  .reservation-page {
+
+    background-color: white;
+    color: #3498db;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+
+  
+
+  
+
+  
+  /* Trip Summary Section */
+  .trip-summary {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+
+  }
+  
+  .trip-card {
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+background-color: white;
+width: 30%;
+   
+    
+  }
+  
+  .trip-card img {
+
+    width: 100%;
+    border-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+  
+  }
+  .trip-card img :hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+   .hotel img :hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .hotel{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .hotel img{
+    width: 100%;
+    border-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+
+  }
+  
+  .trip-details {
+    padding: 20px;
+    text-align: center;
+  
+  }
+  
+  .trip-details h2 {
+    font-size: 1.8rem;
+    color: #3498db;
+  }
+  
+  .trip-details p {
+    color: #3498db;
+  }
+  .info{
+ 
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .info-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-left: 50px;
+  }
+  
+  .info-icons div {
+    font-size: 1.4rem;
+    color: #3498db;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .info-icons i {
+    margin-right: 5px;
+  }
+  
+  /* Reservation Form Section */
+  .reservation-form {
+    background-color: #e3f2fd;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .reservation-form h2 {
+    font-size: 1.6rem;
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .reservation-form label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 5px;
+    text-align: center;
+  }
+  
+  .reservation-form input
+  {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  
+   justify-content: center;
+  }
+  
+  /* Pricing Section */
+  .pricing {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .pricing h3 {
+    font-size: 2.4rem;
+    color: #3498db;
+  }
+  
+  .pricing p {
+    font-size: 2.2rem;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .pricing span {
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  /* Reservation Button */
+  .reservation-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .reservation-button button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .reservation-button button:hover {
+    background-color: #0b5ed7;
+    transform: scale(1.05);
+  }
+  
+  .reservation-button p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: #555;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .reservation-page {
+      padding: 15px;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .trip-card {
+      flex-direction: column;
+    }
+  
+    .reservation-form h2 {
+      font-size: 1.3rem;
+    }
+  
+    .pricing p {
+      font-size: 1rem;
+    }
+  }
+  
+  .grid {
+  
+ 
+    display: grid;
+      
+    
+    
+     
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      
+     
+    width: 100%;
+    }
+    
+    .grid-item {
+      
+     
+    background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      
+    
+    
+     
+    overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      
+    
+    
+    text-align: center;
+    }
+    
+    
+    
+    .grid-item h2 {
+      
+     
+    color: #0d6efd;
+      margin-bottom: 10px;
+    }
+    
+    .grid-item video {
+      
+     
+    width: 100%;
+      
+  
+
+    height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  
+
+    .content-block {
+  
+      text-align: center;
+      margin-bottom: 20px;
+   
+      padding: 15px;
+      border-radius: 8px;
+  
+    }
+    
+    .content-block h2
+  {
+      color: #0d6efd;
+      margin-bottom: 10px;
+    }
+    .detail_hotel{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    
+    }
+    .main-content{
+      display: flex ;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+   
+    }
+    .video {
+     width: 700px;
+      border-radius: 8px;
+      margin: 10px 0;
+      height: 400px;
+      font-size: 400px;
+    
+    }
+    .video_hotel {
+      width: 100px;
+      height: 100px;
+       border-radius: 10px;
+     
+     }
+    
+    .description {
+      font-size: 1rem;
+      color: #555555;
+    }
+    
+  
+    
+    
+    
